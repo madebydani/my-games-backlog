@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PyInstaller (the .exe goes in a GitHub Release, not in the code)
+build/
+dist/
+*.spec
+
+# Personal data of the app: never commit it
+.mi_backlog_juegos/
+games.json
+config.json
+tierlists.json
+covers/
+backups/
+backlog_copia_*.zip
+
+# Local only: old copies of the program and editor settings
+copias/
+.claude/
